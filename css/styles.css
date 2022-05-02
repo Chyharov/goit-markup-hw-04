@@ -294,12 +294,6 @@ img {
 
 /* Team */
 
-.section-team {
-  background-color: var(--background-color-section);
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .name {
   text-align: center;
   color: var(--primary-text-color);
@@ -315,7 +309,6 @@ img {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   margin-bottom: 16px;
 }
 
@@ -359,6 +352,57 @@ img {
 .soc-team-link:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+}
+
+/* Clients */
+
+.section-clients {
+  margin-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title {
+  color: var(--primary-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.icon-clients-list+.icon-clients-list {
+  margin-left: 30px;
+}
+
+/* .icon-clients-lis:not(:last-child) {
+  margin-left: 30px;
+} - не работает? */
+
+.icon-clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  color: #afb1b8;;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.icon-clients {
+  fill: currentColor;
+}
+
+.icon-clients-link:hover,
+.icon-clients-link:focus {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* Features */
@@ -510,7 +554,7 @@ address {
 }
 
 .footer-link {
-  color: var(--primary-white-color)
+  color: var(--primary-white-color);
   font-style: normal;
   text-decoration: none;
 }
