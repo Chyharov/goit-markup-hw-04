@@ -284,6 +284,7 @@ img {
   text-align: center;
 }
 
+
 .feature-title {
   color: var(--primary-text-color);
   margin: 0;
@@ -407,6 +408,10 @@ img {
 }
 
 /* Features */
+
+.section-feature-list {
+  margin-top: 94px;
+}
 
 .features-list .title {
   color: var(--title-text-color);
