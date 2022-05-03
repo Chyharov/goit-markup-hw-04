@@ -294,6 +294,7 @@ img {
 }
 
 /* Team */
+
 .section-team {
   Padding-top: 94px;
   Padding-bottom: 94px;
@@ -341,6 +342,10 @@ img {
 .social-list-team {
   display: flex;
   justify-content: center;
+}
+
+.icon-social-team:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-team-link {
