@@ -78,7 +78,7 @@ header {
 .icon-header {
   text-align: center;
   align-items: center;
-  fill: currentcolor;
+  fill: currentColor;
 
   margin-right: 10px;
 }
@@ -352,7 +352,7 @@ img {
 }
 
 .icon-team {
-  fill: currentcolor;
+  fill: currentColor;
 }
 
 .social-team-link:hover,
@@ -398,7 +398,7 @@ img {
 }
 
 .icon-clients {
-  fill: currentcolor;
+  fill: currentColor;
 }
 
 .icon-clients-link:hover,
@@ -687,7 +687,7 @@ address {
 }
 
 .icon-footer {
-  fill: currentcolor;
+  fill: currentColor;
 }
 
 .footer-social-link:hover,
